@@ -19,6 +19,10 @@ INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 
 /* day 3 setting foreing keys values */
 
+INSERT INTO species (name) VALUES
+('Pokemon'),
+('Digimon')
+
 UPDATE animals SET species_id = 1 WHERE name NOT LIKE '%mon';
 UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
 
