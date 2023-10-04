@@ -8,7 +8,7 @@ CREATE TABLE medical_histories (
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	admitted_at timestamp,
 	patient_id int,
-	status varchar(60)
+	status varchar(150)
 );
 
 CREATE TABLE invoices (
@@ -30,7 +30,7 @@ CREATE TABLE invoice_items (
 
 CREATE TABLE treatments (
 	id serial PRIMARY KEY,
-	type varchar(50),
+	type varchar(100),
 	name
 );
 
