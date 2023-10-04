@@ -42,27 +42,27 @@ CREATE TABLE medical_histories_treatment (
 
 ALTER TABLE invoices
 ADD CONSTRAINT med_history_fk FOREIGN KEY(medical_history_id)
-REFERENCES medical_histories(id)
+REFERENCES medical_histories(id);
 
 ALTER TABLE medical_histories
 ADD CONSTRAINT patient_fk FOREIGN KEY(patient_id)
-REFERENCES patients(id)
+REFERENCES patients(id);
 
 ALTER TABLE invoice_items
 ADD CONSTRAINT invoice_fk FOREIGN KEY(invoice_id)
-REFERENCES invoices(id)
+REFERENCES invoices(id);
 
 ALTER TABLE invoice_items
 ADD CONSTRAINT treatment_fk FOREIGN KEY(treatment_id)
-REFERENCES treatments(id)
+REFERENCES treatments(id);
 
 ALTER TABLE medical_histories_treatment
 ADD CONSTRAINT med_history_id_fk FOREIGN KEY(med_history_id)
-REFERENCES medical_histories(id)
+REFERENCES medical_histories(id);
 
 ALTER TABLE medical_histories_treatment
 ADD CONSTRAINT treatment_id_fk FOREIGN KEY(treatment_id)
-REFERENCES treatments(id)
+REFERENCES treatments(id);
 
 CREATE INDEX idx_treatment_id 
 ON invoice_items(treatment_id);
