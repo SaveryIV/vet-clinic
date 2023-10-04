@@ -42,6 +42,8 @@
 - **[table with important information]**
 - **[fetching animals with specific querys]**
 - **[first project doing SQL databases]**
+- **[run performance audit query to test execution timeout]**
+- **[schema diagram based on medical company database]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
