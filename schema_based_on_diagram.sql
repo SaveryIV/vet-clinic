@@ -57,7 +57,7 @@ ADD CONSTRAINT treatment_fk FOREIGN KEY(treatment_id)
 REFERENCES treatments(id)
 
 ALTER TABLE medical_histories_treatment
-ADD CONSTRAINT med_history_fk FOREIGN KEY(med_history_id)
+ADD CONSTRAINT med_history_id_fk FOREIGN KEY(med_history_id)
 REFERENCES medical_histories(id)
 
 ALTER TABLE medical_histories_treatment
