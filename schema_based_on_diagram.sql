@@ -32,11 +32,10 @@ CREATE TABLE invoice_items (
 CREATE TABLE treatments (
 	id serial PRIMARY KEY,
 	type varchar(100),
-	name
+	name varchar(65)
 );
 
 CREATE TABLE medical_histories_treatment (
-	id serial PRIMARY KEY,
 	med_history_id INT,
 	treatment_id INT
 );
