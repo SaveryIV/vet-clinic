@@ -42,6 +42,7 @@
 - **[table with imoprtant information]**
 - **[fetching animals with specific querys]**
 - **[first project doing SQL databases]**
+- **[performance audit check on query execution timeout]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +107,12 @@ No deployment have made yet.
 - GitHub: [@Agustin-Soria](https://github.com/SaveryIV)
 - LinkedIn: [Agustin Soria](https://www.linkedin.com/in/agust%C3%ADn-ricardo-soria-meza-979747228/)
 
+👤 **Michael Darkwah**
+
+- GitHub: [@Mike47ip](https://github.com/Mike47ip)
+- Twitter: [@ip_mikee](https://twitter.com/ip_mikee)
+- LinkedIn: [Michael Darkwah](https://linkedin.com/in/michael-darkwah-81
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -122,7 +129,7 @@ No deployment have made yet.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/SaveryIV/vet-clinic/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,6 +156,6 @@ N/A
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/SaveryIV/vet-clinic/blob/Performance-audit-branch/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
