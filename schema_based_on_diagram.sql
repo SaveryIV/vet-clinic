@@ -1,31 +1,32 @@
 CREATE TABLE patients (
-	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	name varchar(70),
 	date_of_birth date
 );
 
 CREATE TABLE medical_histories (
-	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	admitted_at timestamp,
-	patient_id int,
+	id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	admitted_at timestamp NOT NULL,
+	patient_id INT,
 	status varchar(150)
 );
 
 CREATE TABLE invoices (
-	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	total_amount decimal,
-	generated_at timestamp,
-	payed_at timestamp,
-	medical_history_id int
+    id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+    total_amount DECIMAL NOT NULL,
+    generated_at TIMESTAMP NOT NULL,
+    payed_at TIMESTAMP NOT NULL,
+    medical_history_id INT NOT NULL,
+    PRIMARY KEY(id)
 );
 
 CREATE TABLE invoice_items (
 	id serial PRIMARY KEY,
-	unit_price decimal,
-	quantity int,
-	total_price decimal,
-	invoice_id int,
-	treatment_id int
+	unit_price DECIMAL,
+	quantity INT,
+	total_price DECIMAL,
+	invoice_id INT,
+	treatment_id INT
 );
 
 CREATE TABLE treatments (
@@ -36,8 +37,8 @@ CREATE TABLE treatments (
 
 CREATE TABLE medical_histories_treatment (
 	id serial PRIMARY KEY,
-	med_history_id int,
-	treatment_id int
+	med_history_id INT,
+	treatment_id INT
 );
 
 ALTER TABLE invoices
