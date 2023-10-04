@@ -105,3 +105,9 @@ SELECT animals.name, animals.date_of_birth, animals.escape_attempts, animals.neu
 SELECT COUNT(*) FROM visits JOIN animals ON animals.id = visits.animal_id JOIN vets ON vets.id = visits.vet_id JOIN specializations on specializations.vet_id = visits.vet_id WHERE animals.species_id != specializations.species_id;
 
 SELECT species.name as species, COUNT(*) from visits JOIN vets ON vets.id = visits.vet_id JOIN animals ON animals.id = visits.animal_id JOIN species ON species.id = animals.species_id WHERE vets.id = 2 GROUP BY species.name;
+
+/* week 2 - day 1 */
+
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
