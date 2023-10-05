@@ -45,7 +45,6 @@
 - **[run performance audit query to test execution timeout]**
 - **[schema diagram based on medical company database]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -109,9 +108,11 @@ No deployment have made yet.
 - GitHub: [@Agustin-Soria](https://github.com/SaveryIV)
 - LinkedIn: [Agustin Soria](https://www.linkedin.com/in/agust%C3%ADn-ricardo-soria-meza-979747228/)
 
+👤 **Michael Darkwah**
+
 - GitHub: [@Mike47ip](https://github.com/Mike47ip)
 - Twitter: [@ip_mikee](https://twitter.com/ip_mikee)
-- LinkedIn: [Michael Darkwah](https://linkedin.com/in/michael-darkwah-81a039141)
+- LinkedIn: [Michael Darkwah](https://linkedin.com/in/michael-darkwah-81
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
