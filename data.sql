@@ -80,3 +80,13 @@ INSERT INTO vets(
       (10, 3, '2020-05-24'),
       (10, 1, '2021-01-11')
 	;
+
+/* week 2 - day 1 */
+
+INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT * FROM (SELECT id FROM animals) animal_ids, (SELECT id FROM vets) vets_ids, generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+INSERT into owners (full_name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
+
+CREATE INDEX animal_id_index ON visits (animal_id);
+CREATE INDEX vet_id_index ON visits (vet_id);
+CREATE INDEX email_index ON owners (email);
