@@ -39,10 +39,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[table with imoprtant information]**
+- **[table with important information]**
 - **[fetching animals with specific querys]**
 - **[first project doing SQL databases]**
-- **[performance audit check on query execution timeout]**
+- **[run performance audit query to test execution timeout]**
+- **[schema diagram based on medical company database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,6 +157,6 @@ N/A
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/SaveryIV/vet-clinic/blob/Performance-audit-branch/LICENSE) licensed.
+This project is [MIT](https://github.com/SaveryIV/vet-clinic/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
